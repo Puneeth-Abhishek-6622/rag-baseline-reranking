@@ -1,0 +1,17 @@
+# Core PDF RAG and evaluation dependencies
+pypdf>=5.0.0
+langchain-core>=0.3.0
+langchain-text-splitters>=0.3.0
+numpy>=1.26.0
+pandas>=2.1.0
+matplotlib>=3.8.0
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0
+python-dotenv>=1.0.0
+
+# Optional: grounded answer generation through Gemini
+google-genai>=1.0.0
+
+# Recommended for running notebooks
+ipykernel>=6.29.0
+jupyter>=1.0.0
